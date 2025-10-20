@@ -11,9 +11,9 @@ Drain Bot is a versatile Discord bot built with Node.js and Discord.js (v14.x.x)
 - Link Monitoring: Deletes messages containing URLs and DMs users (when enabled with `!monitorlinks on`).
 - Console Management: Clears the console and redisplays ASCII art after 20 command logs for a clean interface.
 
-Command Overview
+## Command Overview
 
-General Commands (26):
+# General Commands (26):
 - !8ball: Answers a yes/no question with a random response.
 - !avatar: Displays a user's avatar.
 - !botinfo: Shows bot information (e.g., uptime, version).
