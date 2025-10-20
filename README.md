@@ -74,7 +74,7 @@ Installation
 
 1. Clone the Repository:
    ```
-   git clone https://github.com/your-username/drain-bot.git
+   git clone https://github.com/ryukakoi/drain-bot.git
    cd drain-bot
    ```
 
