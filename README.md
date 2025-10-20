@@ -1,8 +1,8 @@
-# Drain Bot
+## Drain Bot
 
 Drain Bot is a versatile Discord bot built with Node.js and Discord.js (v14.x.x). It offers 46 commands for server management, fun interactions, and moderation, including anti-spam protection and link monitoring. The bot features a clean console output with ASCII art and clears logs after every 20 command-related logs for a streamlined experience.
 
-# Features
+## Features
 
 - Prefix Commands: Use `!` (configurable in `config.js`) for commands like `!ping`, `!help`, and `!antispam`.
 - Slash Commands: Supports slash commands (e.g., `/ping`, `/say`) for modern Discord interactions.
@@ -11,9 +11,9 @@ Drain Bot is a versatile Discord bot built with Node.js and Discord.js (v14.x.x)
 - Link Monitoring: Deletes messages containing URLs and DMs users (when enabled with `!monitorlinks on`).
 - Console Management: Clears the console and redisplays ASCII art after 20 command logs for a clean interface.
 
-## Command Overview
+# Command Overview
 
-# General Commands (26):
+## General Commands (26):
 - !8ball: Answers a yes/no question with a random response.
 - !avatar: Displays a user's avatar.
 - !botinfo: Shows bot information (e.g., uptime, version).
@@ -63,14 +63,14 @@ Security Commands (20):
 - !unmute: Removes a mute role from a user (requires `Manage Roles`).
 - !warnings: Shows warnings issued to a user.
 
-Prerequisites
+## Prerequisites
 
 - Node.js: Version 16.x or higher.
 - Discord Bot Token: Obtain from the Discord Developer Portal (https://discord.com/developers/applications).
 - Git: For cloning the repository.
 - A Discord server: Where you have permission to invite the bot and manage roles/channels.
 
-Installation
+## Installation
 
 1. Clone the Repository:
    ```
@@ -131,7 +131,7 @@ Installation
    ```
    - Enter your bot token when prompted (kept secure with `prompt-sync`).
 
-Usage
+## Usage
 
 Example Commands
 - General Commands:
@@ -154,7 +154,7 @@ Console Output
 - Command-related logs (e.g., `[MESSAGE] Processing command: antispam`, `[MESSAGE] Executed command: antispam`) are displayed.
 - After 20 command-related logs, the console clears and redisplays the ASCII art from `config.js`.
 
-Project Structure
+## Project Structure
 
 ```
 drain-bot/
@@ -179,7 +179,7 @@ drain-bot/
 └── README.md
 ```
 
-Troubleshooting
+## Troubleshooting
 
 - Bot Not Responding:
   - Ensure `Message Content Intent` is enabled in the Discord Developer Portal.
