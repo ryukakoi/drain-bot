@@ -1,3 +1,13 @@
+
+
+
+![standard](https://github.com/user-attachments/assets/95aec1ed-cda1-4854-b99e-5cbfce7f8f2d)
+
+
+
+
+
+
 ## Drain Bot
 
 Drain Bot is a versatile Discord bot built with Node.js and Discord.js (v14.x.x). It offers 46 commands for server management, fun interactions, and moderation, including anti-spam protection and link monitoring. The bot features a clean console output with ASCII art and clears logs after every 20 command-related logs for a streamlined experience.
