@@ -1,8 +1,8 @@
-Drain Bot
+# Drain Bot
 
 Drain Bot is a versatile Discord bot built with Node.js and Discord.js (v14.x.x). It offers 46 commands for server management, fun interactions, and moderation, including anti-spam protection and link monitoring. The bot features a clean console output with ASCII art and clears logs after every 20 command-related logs for a streamlined experience.
 
-Features
+# Features
 
 - Prefix Commands: Use `!` (configurable in `config.js`) for commands like `!ping`, `!help`, and `!antispam`.
 - Slash Commands: Supports slash commands (e.g., `/ping`, `/say`) for modern Discord interactions.
