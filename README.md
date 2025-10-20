@@ -169,8 +169,9 @@ drain-bot/
 ├── events/
 │   ├── ready.js
 │   ├── messageCreate.js
-│   ├── messageDelete.js
+│   ├── messageDelete.js 
 │   └── messageUpdate.js
+│   
 ├── utils.js
 ├── config.js
 ├── index.js
